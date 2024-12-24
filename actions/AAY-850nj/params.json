@@ -1,0 +1,39 @@
+{
+    "category": "plugins",
+    "display": "Download File",
+    "fields": {
+        "AAZ": {
+            "caption": "server",
+            "default_val": "api58.ilovepdf.com",
+            "editor": "DynamicValue",
+            "name": "server",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "task",
+            "default_val": "g27d4mrsg3ztmnzAgm5d3njAghyjpppzm7qqvg29w4wx8dz5sjd0bdq8tkkrdhrkAxxp0t7q0wqd263y2sc92An03v1gnAqz0tj7mb59j9llbc22j0bl6kcAg3cc1A4nbscA63sznrzr2tgfjmw09rywc2",
+            "editor": "DynamicValue",
+            "name": "task",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "filename",
+            "default_val": "output",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "Authorization",
+            "default_val": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuaWxvdmVwZGYuY29tIiwiYXVkIjoiIiwiaWF0IjoxNzM0NjEzMDc0LCJuYmYiOjE3MzQ2MTMwNzQsImV4cCI6MTczNDYxNjY3NCwianRpIjoicHJvamVjdF9wdWJsaWNfNDU5ZjNkMGJmZmVlMTEzZGFkNzk0MmJmYmRjODQ4ZjZfdUY4MHY3NWM2MTQzNTAwNWU0NmQwOGE5YTYxNGRiNDE1ZTJmZSJ9.LER6rL5WUok3kcTLrNXbVEuCVPC8-EBGBhfKqQAwWeo",
+            "editor": "DynamicValue",
+            "name": "authorization",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

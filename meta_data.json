@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "PDF",
+        "1": "data (things)"
+    },
+    "demo_page": "https://chakor-demo-4.bubbleapps.io/version-test/pdf_compressor",
+    "description": "PDF Compressor streamlines reducing PDF file sizes while maintaining high quality. It supports seamless compression with user-defined size limits, ensuring files are optimized for storage and sharing without compromising clarity. This plugin allows users to compress PDFs on the fly, making managing large files easier. PDF Compressor enhances your app's functionality by providing fast, reliable, and user-friendly file compression capabilities for a smoother workflow.\n\n🔗Demo Link: https://chakor-demo-4.bubbleapps.io/version-test/pdf_compressor\n🔗Editor Link: https://bubble.io/page?id=chakor-demo-4&test_plugin=1734612904027x120789538716254200_current&tab=Design&name=pdf_compressor&type=page",
+    "image": "//meta-q.cdn.bubble.io/f1734702349490x190142859809064640/pdf-file-svgrepo-com.svg",
+    "license": "commercial",
+    "link": "https://thechakor.tawk.help/article/pdf-compressor?preview=1&token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Imtub3dsZWRnZS1iYXNlLXNlcnZpY2UtMjAyMDA3MTYifQ.eyJpYXQiOjE3MzUwMzUyODUsImV4cCI6MTczNTA0MjQ4NSwianRpIjoiTjZPMjZ5T1RVX2o3UktmaWQ5QlgyIn0.IUIoLWgtJ-_qkYXJ5Iw2ostpuZfSflBkIYz297QtLSM0jRyBOU30tmnL7k8VVemqd_-V-3wwfqgJbYxrsXw0lA",
+    "name": "PDF Compressor",
+    "plugin_instructions": "- Install the PDF Compressor Plugin in your app.\n- Go to https://www.iloveapi.com/signup to create an \n  account.\n- Retrieve your public key and secret key from the \n  https://www.iloveapi.com/user/projects.\n- Call the Authorization API, providing your public key in the \n  required field, to obtain an authorization token. Save this \n  token for the next steps.\n- Use the token to start the compression process:\n- Upload the file (note: only one file can be uploaded at a \n  time).\n- Process the files by specifying the server_filename and an \n  output name for the compressed PDF.\n- Call the Download API to download the compressed PDF.\n\n🔗Demo Link: https://chakor-demo-4.bubbleapps.io/version-test/pdf_compressor\n🔗Editor Link: https://bubble.io/page?id=chakor-demo-4&test_plugin=1734612904027x120789538716254200_current&tab=Design&name=pdf_compressor&type=page",
+    "sa_node_version": 18
+}

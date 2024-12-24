@@ -1,0 +1,88 @@
+{
+    "calls": {
+        "AAD": {
+            "initialized": true,
+            "method": "post",
+            "name": "Authorization",
+            "params": {
+                "AAF": {
+                    "key": "public_key",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1734612904027x120789538716254200.plugin_api.AAD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Authorization\",\"fields\":{\"_p_token\":{\"ret_btype\":\"text\",\"caption\":\"token\",\"sample_value\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuaWxvdmVwZGYuY29tIiwiYXVkIjoiIiwiaWF0IjoxNzM1MDMzMjU4LCJuYmYiOjE3MzUwMzMyNTgsImV4cCI6MTczNTAzNjg1OCwianRpIjoicHJvamVjdF9wdWJsaWNfNDU5ZjNkMGJmZmVlMTEzZGFkNzk0MmJmYmRjODQ4ZjZfdUY4MHY3NWM2MTQzNTAwNWU0NmQwOGE5YTYxNGRiNDE1ZTJmZSJ9.jlOk1QXH0NVTpP0p2k6lkMWWsyvXntKZlzyOtP3i9Ns\",\"path\":[\"token\"]}}}}",
+            "url": "https://api.ilovepdf.com/v1/auth"
+        },
+        "AAG": {
+            "headers": {
+                "AAH": {
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuaWxvdmVwZGYuY29tIiwiYXVkIjoiIiwiaWF0IjoxNzM1MDMzMjU4LCJuYmYiOjE3MzUwMzMyNTgsImV4cCI6MTczNTAzNjg1OCwianRpIjoicHJvamVjdF9wdWJsaWNfNDU5ZjNkMGJmZmVlMTEzZGFkNzk0MmJmYmRjODQ4ZjZfdUY4MHY3NWM2MTQzNTAwNWU0NmQwOGE5YTYxNGRiNDE1ZTJmZSJ9.jlOk1QXH0NVTpP0p2k6lkMWWsyvXntKZlzyOtP3i9Ns",
+                    "visibility": "public"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "Start Compression",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1734612904027x120789538716254200.plugin_api.AAG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAG\":{\"caption\":\"Start Compression\",\"fields\":{\"_p_server\":{\"ret_btype\":\"text\",\"caption\":\"server\",\"sample_value\":\"api31.ilovepdf.com\",\"path\":[\"server\"]},\"_p_task\":{\"ret_btype\":\"text\",\"caption\":\"task\",\"sample_value\":\"g27d4mrsg3ztmnzAgm5d3njAghhkf712A71zk7jbkpl0nszdhdw0d3xsbb8d1gdw093n0r6fcm3r9r37tw9902dwsbjgjA745vq2r13hj8f7qypj6gx544jm9rqsv6lmlj2v74myz16Asj47b61rq0kvl2\",\"path\":[\"task\"]},\"_p_remaining_files\":{\"ret_btype\":\"number\",\"caption\":\"remaining_files\",\"sample_value\":2420,\"path\":[\"remaining_files\"]}}}}",
+            "url": "https://api.ilovepdf.com/v1/start/compress"
+        },
+        "AAM": {
+            "body": "{\n  \"task\": \"<task>\",\n  \"tool\": \"compress\",\n  \"files\": [\n    {\n      \"server_filename\": \"<server_filename>\",\n      \"filename\": \"<filename>.pdf\"\n    }\n  ]\n}\n",
+            "body_params": {
+                "AAR": {
+                    "key": "task",
+                    "private": true,
+                    "value": "g27d4mrsg3ztmnzAgm5d3njAghhkf712A71zk7jbkpl0nszdhdw0d3xsbb8d1gdw093n0r6fcm3r9r37tw9902dwsbjgjA745vq2r13hj8f7qypj6gx544jm9rqsv6lmlj2v74myz16Asj47b61rq0kvl2",
+                    "visibility": "public"
+                },
+                "AAS": {
+                    "key": "server_filename",
+                    "private": true,
+                    "value": "1871f480e8cf68bac51108da571ba541a934500ac880c20f2fa690d0cd2bb7ce.pdf",
+                    "visibility": "public"
+                },
+                "AAT": {
+                    "key": "filename",
+                    "private": true,
+                    "value": "output"
+                }
+            },
+            "headers": {
+                "AAN": {
+                    "key": "Authorization",
+                    "private": true,
+                    "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuaWxvdmVwZGYuY29tIiwiYXVkIjoiIiwiaWF0IjoxNzM1MDMzMjU4LCJuYmYiOjE3MzUwMzMyNTgsImV4cCI6MTczNTAzNjg1OCwianRpIjoicHJvamVjdF9wdWJsaWNfNDU5ZjNkMGJmZmVlMTEzZGFkNzk0MmJmYmRjODQ4ZjZfdUY4MHY3NWM2MTQzNTAwNWU0NmQwOGE5YTYxNGRiNDE1ZTJmZSJ9.jlOk1QXH0NVTpP0p2k6lkMWWsyvXntKZlzyOtP3i9Ns",
+                    "visibility": "public"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Process File",
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1734612904027x120789538716254200.plugin_api.AAM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Process File\",\"fields\":{\"_p_download_filename\":{\"ret_btype\":\"text\",\"caption\":\"download_filename\",\"sample_value\":\"output.pdf\",\"path\":[\"download_filename\"]},\"_p_filesize\":{\"ret_btype\":\"number\",\"caption\":\"filesize\",\"sample_value\":5195548,\"path\":[\"filesize\"]},\"_p_output_filesize\":{\"ret_btype\":\"number\",\"caption\":\"output_filesize\",\"sample_value\":1868044,\"path\":[\"output_filesize\"]},\"_p_output_filenumber\":{\"ret_btype\":\"number\",\"caption\":\"output_filenumber\",\"sample_value\":1,\"path\":[\"output_filenumber\"]},\"_p_output_extensions\":{\"ret_btype\":\"text\",\"caption\":\"output_extensions\",\"sample_value\":\"[\\\"pdf\\\"]\",\"path\":[\"output_extensions\"]},\"_p_timer\":{\"ret_btype\":\"text\",\"caption\":\"timer\",\"sample_value\":\"2.043\",\"path\":[\"timer\"]},\"_p_status\":{\"ret_btype\":\"text\",\"caption\":\"status\",\"sample_value\":\"TaskSuccess\",\"path\":[\"status\"]}}}}",
+            "url": "https://[server]/v1/process",
+            "url_params": {
+                "AAX": {
+                    "key": "server",
+                    "private": true,
+                    "value": "api31.ilovepdf.com"
+                }
+            }
+        }
+    },
+    "human": "PDF Compressor"
+}

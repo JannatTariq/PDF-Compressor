@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "Upload File",
+    "fields": {
+        "AAe": {
+            "caption": "Authorization",
+            "default_val": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuaWxvdmVwZGYuY29tIiwiYXVkIjoiIiwiaWF0IjoxNzM0NjE3MjUxLCJuYmYiOjE3MzQ2MTcyNTEsImV4cCI6MTczNDYyMDg1MSwianRpIjoicHJvamVjdF9wdWJsaWNfNDU5ZjNkMGJmZmVlMTEzZGFkNzk0MmJmYmRjODQ4ZjZfdUY4MHY3NWM2MTQzNTAwNWU0NmQwOGE5YTYxNGRiNDE1ZTJmZSJ9.XDfWtMR9Hl_gSaMZhbSYTJuAaH7LaXuTpl7ekVfqZJk",
+            "editor": "DynamicValue",
+            "name": "authorization",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "server",
+            "default_val": "api9.ilovepdf.com",
+            "editor": "DynamicValue",
+            "name": "server",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "task",
+            "default_val": "g27d4mrsg3ztmnzAgm5d3njAghsg3pt54xhjmAjj8g152td6fg37k856gdk8gf0AjA31ws7A4Awc5tdt12hphcl5m4rA2dvqs9zg3dq0tccqfhfdd7znph0qhvs7t3zhnd86w4np2bn41mzkl2z6ysm351",
+            "editor": "DynamicValue",
+            "name": "task",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "file",
+            "editor": "DynamicValue",
+            "name": "file",
+            "rank": 3,
+            "value": "file"
+        }
+    },
+    "return_value": {
+        "AAj": {
+            "caption": "server_filename",
+            "name": "server_filename",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "error",
+            "name": "error",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
